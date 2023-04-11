@@ -18,8 +18,7 @@
   width: 40%;
 }
 
-select,
-input
+.inputText
 {
   margin-top: 0.5rem;
   width: 100%;
@@ -29,7 +28,8 @@ input
   padding:0.5rem;
 }
 
-label
+legend,
+.labelStyle
 {
   font-size: 1rem;
   font-weight: bold;
@@ -38,4 +38,41 @@ label
 
 select option{
   border-radius: 0px;
+}
+
+.border-none
+{
+  border: none;
+}
+.flexbox
+{
+  display: flex;
+  padding-left: 0.5rem;
+}
+.marginLeftTop
+{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+p{
+  color:grey;
+  padding-left: 0.25rem;
+}
+.marginLeft
+{
+  margin-left: 1rem;;
+}
+
+button
+{
+  padding:0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(77, 91, 242);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border:1px solid rgb(10, 29, 245);
 }
